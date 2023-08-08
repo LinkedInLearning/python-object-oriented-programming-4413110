@@ -1,0 +1,11 @@
+{
+  "extensions": [
+    "GitHub.github-vscode-theme"
+    // Additional Extensions Here
+  ],
+  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc",
+  "postAttachCommand": "git pull --all"
+  
+  // Update welcome text and set terminal prompt to '$ '
+}
+// DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
