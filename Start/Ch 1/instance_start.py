@@ -13,8 +13,7 @@ class Book:
 
 
 # TODO: create some book instances
-b1 = Book("War and Peace")
-b2 = Book("The Catcher in the Rye")
+
 
 # TODO: print the price of book1
 
