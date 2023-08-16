@@ -5,13 +5,13 @@
 class A:
     def __init__(self):
         super().__init__()
-        self.foo = "foo"
+        self.prop1 = "prop1"
 
 
 class B:
     def __init__(self):
         super().__init__()
-        self.bar = "bar"
+        self.prop2 = "prop2"
 
 
 class C(A, B):
