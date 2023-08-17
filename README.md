@@ -2,13 +2,17 @@
 This is the repository for the LinkedIn Learning course Python Object-Oriented Programming. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+This repository contains two folders for the contents of the course:
+- *Finished*: The fully finished versions of the code examples. Intended to be used as a reference and for help with troubleshooting your own code
+- *Start*: The starting point for each exercise. This is the code that you will use in the course to build towards the finished examples.
 
 ## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
+1. To use these exercise files locally on your computer, you must have the following installed:
+	- [Python 3.10][https://www.python.org/downloads/]
 2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+
+## Codespace
+This course has been set up to use Codespaces, an online development environment that requires no installation. Fork a copy of the repository in your own Github account and use a Codespace to work entirely online.
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
