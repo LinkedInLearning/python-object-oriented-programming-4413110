@@ -1,6 +1,10 @@
 # Python Object Oriented Programming by Joe Marini course example
 # Programming challenge: add methods for comparison and equality
 
+# Challenge: use a magic method to make stocks and bonds sortable
+# Stocks should sort from low to high on price
+# Bonds should sort from low to high on yield
+
 from abc import ABC, abstractmethod
 
 

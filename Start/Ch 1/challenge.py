@@ -1,6 +1,13 @@
 # Python Object Oriented Programming by Joe Marini course example
 # Programming challenge: define a class to represent a stock symbol
 
+# Challenge: create a class to represent stock information.
+# Your class should have properties for:
+# Ticker (string)
+# Price (float)
+# Company (string)
+# And a method get_description() which returns a string in the form
+# of "Ticker: Company -- $Price"
 
 class Stock:
     pass

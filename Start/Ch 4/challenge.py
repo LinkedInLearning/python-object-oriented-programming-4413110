@@ -1,19 +1,20 @@
 # Python Object Oriented Programming by Joe Marini course example
 # Programming challenge: implement a dataclass
 
-from dataclasses import dataclass
-from abc import ABC, abstractmethod
+# Challenge: convert your classes to dataclasses
+# The subclasses are required to override the magic method
+# that makes them sortable
 
 class Asset():
     pass
     
 
 class Stock(Asset):
-   pass
+    pass
 
 
 class Bond(Asset):
-   pass
+    pass
 
 # ~~~~~~~~~ TEST CODE ~~~~~~~~~
 stocks = [
