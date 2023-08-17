@@ -1,34 +1,31 @@
 # Python Object Oriented Programming by Joe Marini course example
-# Programming challenge: implement a dataclass
+# Programming challenge: add methods for comparison and equality
 
-from dataclasses import dataclass
 from abc import ABC, abstractmethod
 
-@dataclass
+
 class Asset(ABC):
-    price: float
+    def __init__(self, price):
+        self.price = price
 
     @abstractmethod
-    def __lt__(self, other):
-       pass
-    
+    def __str__(self):
+        pass
 
-@dataclass
+
 class Stock(Asset):
-    ticker: str
-    company: str
+    def __init__(self, ticker, price, company):
+        super().__init__(price)
+        self.company = company
+        self.ticker = ticker
 
-    def __lt__(self, other):
-        return self.price < other.price
 
-@dataclass
 class Bond(Asset):
-    description: str
-    duration: int
-    yieldamt: float
-
-    def __lt__(self, other):
-        return self.yieldamt < other.yieldamt
+    def __init__(self, price, description, duration, yieldamt):
+        super().__init__(price)
+        self.description = description
+        self.duration = duration
+        self.yieldamt = yieldamt
 
 
 # ~~~~~~~~~ TEST CODE ~~~~~~~~~
@@ -45,11 +42,6 @@ bonds = [
     Bond(98.65, "5 Year US Treasury", 5, 4.43),
     Bond(99.57, "2 Year US Treasury", 2, 4.98)
 ]
-
-try:
-   ast = Asset(100.0)
-except:
-   print("Can't instantiate Asset!")
 
 stocks.sort()
 bonds.sort()

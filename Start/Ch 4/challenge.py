@@ -4,32 +4,16 @@
 from dataclasses import dataclass
 from abc import ABC, abstractmethod
 
-@dataclass
-class Asset(ABC):
-    price: float
-
-    @abstractmethod
-    def __lt__(self, other):
-       pass
+class Asset():
+    pass
     
 
-@dataclass
 class Stock(Asset):
-    ticker: str
-    company: str
+   pass
 
-    def __lt__(self, other):
-        return self.price < other.price
 
-@dataclass
 class Bond(Asset):
-    description: str
-    duration: int
-    yieldamt: float
-
-    def __lt__(self, other):
-        return self.yieldamt < other.yieldamt
-
+   pass
 
 # ~~~~~~~~~ TEST CODE ~~~~~~~~~
 stocks = [
@@ -55,7 +39,7 @@ stocks.sort()
 bonds.sort()
 
 for stock in stocks:
-    print(stock)
+   print(stock)
 print("-----------")
 for bond in bonds:
-    print(bond)
+   print(bond)

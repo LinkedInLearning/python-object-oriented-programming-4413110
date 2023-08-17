@@ -59,7 +59,7 @@ stocks.sort()
 bonds.sort()
 
 for stock in stocks:
-  print(stock)
+    print(stock)
 print("-----------")
 for bond in bonds:
-  print(bond)
+    print(bond)
