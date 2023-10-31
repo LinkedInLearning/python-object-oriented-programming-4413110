@@ -30,7 +30,7 @@ Senior Director of Product and Engineering
 Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/joe-marini).
 
 [lil-course-url]: https://www.linkedin.com/learning/python-object-oriented-programming-22888296?dApp=59033956&leis=LAA
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQH_kOjfznHHPg/learning-public-crop_288_512/0/1696617188774?e=2147483647&v=beta&t=P72cEithJbSNGyGQ1IShkRI7lJjD2iOUZ53zlOaTI6I
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D4E0DAQGmlDAUUSloow/learning-public-crop_675_1200/0/1697645724849?e=2147483647&v=beta&t=Ws35uIg4NrNGWXqHuaX4LoGzK4DvrQjZu5Q6QJQ_SqM
 
 
 
