@@ -12,6 +12,7 @@ class GraphicShape(ABC):
     def calcArea(self):
         pass
 
+# TODO: Add abstract class "JSONify" with abstract method "toJSON"
 
 class Circle(GraphicShape):
     def __init__(self, radius):
@@ -19,6 +20,8 @@ class Circle(GraphicShape):
 
     def calcArea(self):
         return 3.14 * (self.radius ** 2)
+        
+    # TODO: Override "toJSON" method to return a JSON representation of "calcArea"
 
 
 c = Circle(10)

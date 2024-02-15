@@ -1,6 +1,7 @@
 # Python Object Oriented Programming by Joe Marini course example
 # Using data classes to represent data objects
 
+#TODO: Import dataclasses from dataclass and apply decorator
 
 class Book:
     def __init__(self, title, author, pages, price):
