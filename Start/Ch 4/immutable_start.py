@@ -10,7 +10,7 @@ class ImmutableClass:
     value2: int = 0
 
 
-obj = ImmutableClass()
+obj = ImmutableClass() # You can set the values of frozen class only with initialization
 print(obj.value1)
 
 # TODO: attempting to change the value of an immutable class throws an exception
